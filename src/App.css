@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff7f0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #8b4513;
+  margin: 30px 0;
+}
+
+.flavors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.flavor-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flavor-card h2 {
+  color: #8b4513;
+}
+
+.flavor-card button {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #f4b183;
+}
+
+.flavor-card button:hover {
+  background-color: #e99a60;
+}
